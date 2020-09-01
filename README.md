@@ -5,7 +5,7 @@ Ideas for going beyond the typical use of Artificial Neural Networks
 
 ![mask_vs_not_gradcam](./pics/mask_vs_not_gradcam.png)
 
-I train an image classifier for faces wearing a mask from google search queries. Less than 100 images and 7 epochs are enough thanks to **data augmentation **and **knowledge transfer**. Then, we perform a gradient activation map to point out where the Neural Network is looking to make its decision.
+I train an image classifier for faces wearing a mask from google search queries. Less than 100 images and 7 epochs are enough thanks to **data augmentation** and **knowledge transfer**. Then, we perform a gradient activation map to point out where the Neural Network is looking to make its decision.
 
 ## Similarity on categorical variables
 
