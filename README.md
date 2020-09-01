@@ -43,7 +43,7 @@ Another way we can find hierarchy in data is not a column of categories, but **c
 
 We take as an example the famous *Telcom* churn prediction dataset, which has some columns about customer demographic information, services hired, and specifics about the contract like duration, charges...etc.
 
-![tree architecture telcom](./pics/tree architecture telcom.png)
+![tree_architecture_telcom](./pics/tree_architecture_telcom.png)
 
 The architecture of the network reflects the tree structure of columns by producing information only from within the column subset in the first layers before concatenating them, instead of creating connections between all variables at first.
 
