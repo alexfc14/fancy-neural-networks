@@ -13,7 +13,7 @@ An original proposal for generating class crossings between pairs of samples fro
 ![Cross-Encoder](./pics/Cross-Encoder.svg)
 
 A sample result from the MNIST dataset where 28x28 images are encoded in a 16 component vector. Rows 1 and 3 are the original images, while 2 and 4 are the crossings, drawing the number of one original image in the "style" of the other.
-![crossed numbers](./pics/crossed numbers.png)
+![crossed numbers](./pics/crossed-numbers.jfif)
 
 ## Similarity on categorical variables
 
