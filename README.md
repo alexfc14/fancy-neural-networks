@@ -7,6 +7,14 @@ Ideas for going beyond the typical use of Artificial Neural Networks
 
 I train an image classifier for faces wearing a mask from google search queries. Less than 100 images and 7 epochs are enough thanks to **data augmentation** and **knowledge transfer**. Then, we perform a gradient activation map to point out where the Neural Network is looking to make its decision.
 
+## Cross-Encoder
+
+An original proposal for generating class crossings between pairs of samples from a classification problem while preserving the rest of information, in the sense of autoencoder reconstruction.
+![Cross-Encoder](./pics/Cross-Encoder.svg)
+
+A sample result from the MNIST dataset where 28x28 images are encoded in a 16 component vector. Rows 1 and 3 are the original images, while 2 and 4 are the crossings, drawing the number of one original image in the "style" of the other.
+![crossed numbers](./pics/crossed numbers.jfif)
+
 ## Similarity on categorical variables
 
 I propose recipes on how to treat a categorical variable when we have a notion of **similarity** (or distance) that is different for every pair of classes. I take as an example the words "street", "building", "glacier", "mountain" and "seashore" from *WordNet*, which gives similarity measures between words based on their hierarchy and their usage statistics on corpus. 
